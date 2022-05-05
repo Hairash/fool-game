@@ -14,6 +14,8 @@ Tiles ♦
 Clovers ♣  
 Pikes ♠  
 
+Card: {rank, suit}. Examples: {rank: 6, suit: h}, {rank: Q, suit: c}.
+
 C <-> S message - for test  
 C -> S name? - login with the name  
 C -> S start - start game  
