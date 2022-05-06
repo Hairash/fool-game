@@ -8,6 +8,8 @@
 * Send message to everyone in the game
 * Receive message and output it (card)
 
+* Make good html-template
+
 
 ## API
 Hearts ♥  
