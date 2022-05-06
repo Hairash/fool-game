@@ -2,7 +2,7 @@
 
 ## Plan
 * (User authorization)
-* Work with html: black background, import js-file
+* <s>Work with html: black background, import js-file</s>
 * Display name of user, who send the message
 * Start game on button click with the players that are connected at the moment
 * Send message to everyone in the game
