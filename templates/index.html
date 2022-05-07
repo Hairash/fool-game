@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fool game</title>
+</head>
+{% load static %}
+
+<body style="background: black; color: white">
+    {% if user.is_authenticated %}
+        <p>
+            Hi {{ user.username }}!
+            <a href="{% url 'logout' %}">Log Out</a>
+        </p>
+    {% else %}
+        <p>
+            Hi Anonymous!
+            <a href="{% url 'login' %}">Log In</a>
+        </p>
+    {% endif %}
+    <br>
+
+    Common counter:
+    <h1 id="counter">
+        {{ counter }}
+    </h1>
+    <button type="button" id="send_button">Click Me!</button>
+    <br>
+    Number of players:
+    <h1 id="players_counter">
+        {{ players_counter }}
+    </h1>
+    Private counter:
+    <h1 id="private_counter">
+        {{ private_counter }}
+    </h1>
+    <button type="button" id="private_send_button">Private!</button>
+</body>
+
+<script src="{% static 'script.js' %}"></script>
+
+</html>
