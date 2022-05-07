@@ -1,13 +1,13 @@
 # fool-game
 
 ## Plan
-* (User authorization)
+* <s>User authorization</s>
 * <s>Work with html: black background, import js-file</s>
-* Display name of user, who send the message
-* Start game on button click with the players that are connected at the moment
+* (Display name of user, who send the message)
+* > Start game on button click with the players that are connected at the moment
 * Send message to everyone in the game
 * Receive message and output it (card)
-
+---
 * Make good html-template
 
 
