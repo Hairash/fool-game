@@ -8,6 +8,7 @@
 * Send message to everyone in the game
 * Receive message and output it (card)
 ---
+* Resolve scenario - one user from multiple channels (what to do on connect and disconnect)
 * Make good html-template
 
 
